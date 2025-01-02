@@ -29,7 +29,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // built-in middleware to handle urlencoded data
-// in other words, from data:
+// in other words, form data:
 // content-type: application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: false }));
 
@@ -87,7 +87,7 @@ const three = (req, res, next) => {
 app.get("/chain(.html)?", [one, two, three]);
 
 app.all("*", (req, res) => {
-  res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
+  res.status(404);
   if (req.accepts("html")) {
     res.sendFile(path.join(__dirname, "views", "404.html"));
   } else if (req.accepts("json")) {
