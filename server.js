@@ -12,13 +12,13 @@ app.use(logger);
 
 // Cross Origin Resource sharing
 const whitelist = [
-  "https://www.google.co.in/",
+  "http://localhost:3500/",
   "https://www.google.co.in",
   "https://expressjs.co",
 ];
 const corsOptions = {
   origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== 1) {
+    if (whitelist.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
       callback(new Error(`Not allowed by cors`));
@@ -86,8 +86,15 @@ const three = (req, res, next) => {
 
 app.get("/chain(.html)?", [one, two, three]);
 
-app.get("/*", (req, res) => {
+app.all("*", (req, res) => {
   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
+  if (req.accepts("html")) {
+    res.sendFile(path.join(__dirname, "views", "404.html"));
+  } else if (req.accepts("json")) {
+    res.json({ error: "404 not found" });
+  } else {
+    res.type("txt").send("404 Not Found");
+  }
 });
 
 app.use(errorHandler);
