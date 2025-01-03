@@ -31,3 +31,10 @@
 20250103	07:00:02	6f2be98d-3d0f-4f36-800b-e1760182db1d	GET	undefined	/subdir/test
 20250103	07:00:07	7cd59d10-3b15-4c3a-bd73-5261aa991431	GET	undefined	/subdir/da
 20250103	07:00:07	76bc0dff-cb67-4d86-8cc9-9e0042d12e61	GET	undefined	/subdir/css/style.css
+20250103	07:20:01	c8bbaf5e-ba6d-430c-9e71-3daa148fb43c	GET	undefined	/employees
+20250103	07:21:23	1e8e183d-a775-4c82-b743-77b61b7b2241	POST	undefined	/employees
+20250103	07:21:47	d227cae3-9c21-4ea0-b572-8f0f8160a242	POST	undefined	/employees
+20250103	07:22:02	8cdf40f6-c5d8-488a-9bad-5427202f4cdd	PUT	undefined	/employees
+20250103	07:22:59	dde96fc8-4058-4a6e-8894-5a06803e0ebf	PUT	undefined	/employees
+20250103	07:24:01	2635a074-5c02-4da0-9c75-5a49033f27e0	DELETE	undefined	/employees
+20250103	07:24:37	386f4a97-e44d-4656-8c0d-2840b2321faf	GET	undefined	/employees/2
