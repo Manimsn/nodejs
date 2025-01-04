@@ -1,12 +1,8 @@
-const whitelist = [
-  "http://localhost:3500/",
-  "https://www.google.co.in",
-  "https://expressjs.co",
-];
+const allowedOrigins = require("../config/allowedOrigins");
 
 const corsOptions = {
   origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
       callback(new Error(`Not allowed by cors`));
