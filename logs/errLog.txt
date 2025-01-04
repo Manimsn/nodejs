@@ -6,3 +6,5 @@
 20250103	07:21:23	0e33d4b3-65c7-4988-bcd4-ecaef7e78a25	TypeError: res.json(...).put is not a function
 20250103	07:21:47	36d95fe7-ae1e-4bb3-9378-55fd03fc9e82	TypeError: res.json(...).put is not a function
 20250103	08:16:02	d667d0ef-9351-4833-a042-7795fbfb6810	Error: Cannot set headers after they are sent to the client
+20250104	14:43:30	fe5034ab-b78c-44ee-a388-c45ca46a1eeb	ReferenceError: userDB is not defined
+20250104	14:43:58	ac6a5c0c-7bef-42c3-a12d-9112e6f3bba9	ReferenceError: jwt is not defined

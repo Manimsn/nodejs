@@ -5,13 +5,15 @@ const usersDB = {
   },
 };
 
+const jwt = require("jsonwebtoken");
+
 const handleRefreshToken = (req, res) => {
   const cookies = req.cookies;
   if (!cookies?.jwt) return res.sendStatus(401); //unauthorized
   console.log(cookies.jwt);
   const refreshToken = cookies.jwt;
 
-  const founduser = userDB.users.find(
+  const founduser = usersDB.users.find(
     (person) => person.refreshToken === refreshToken
   );
 
