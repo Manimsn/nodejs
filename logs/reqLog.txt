@@ -105,3 +105,10 @@
 20250104	08:44:20	7db3f57f-f816-45f8-86f3-3e3cc4c63bda	GET	undefined	/employees
 20250104	08:44:28	1edd5dd2-9377-4806-87ee-3f8236590f13	GET	undefined	/employees
 20250104	08:44:33	4bffdc15-cd85-409a-9088-1b312b61b9fa	GET	undefined	/employees
+20250104	08:50:24	223623b8-8687-4b8e-a7f3-0c260559c02e	GET	undefined	/employees
+20250104	08:50:52	ee539655-96d1-4c8a-91f1-73c9405ad481	POST	undefined	/auth
+20250104	08:51:02	c4bc0a91-3d4e-4002-a6a1-2ff466897990	GET	undefined	/employees
+20250104	08:51:06	b0dfa41d-b12f-4693-b3eb-4462b7eaf745	POST	undefined	/employees
+20250104	08:51:14	9c8608df-217d-474d-a453-aa9fe070f9c1	POST	undefined	/employees
+20250104	09:14:46	8689390e-e422-4869-886c-fb44f8a888fd	GET	undefined	/employees
+20250104	09:14:53	86acea00-1111-4bb7-b093-8090f222e9fe	GET	undefined	/employees
