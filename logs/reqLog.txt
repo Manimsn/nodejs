@@ -175,3 +175,6 @@
 20250105	13:23:54	8923da45-51e9-4170-8464-08c2c2fc1967	DELETE	undefined	/employees
 20250105	13:23:58	08ff8575-251f-4e0e-9e32-c97b9891d219	GET	undefined	/employees
 20250105	13:24:01	eebaeccd-fcac-48e1-8efb-c29a3f4ca135	GET	undefined	/employees
+20250105	16:14:57	d3435204-2a0e-4168-8bd2-c5a155a98bef	POST	undefined	/register
+20250105	16:15:22	8f5185e3-ed3b-4a15-bcf1-589fade6e4cc	POST	undefined	/register
+20250105	16:20:23	5fcc2d2a-2366-4b28-a3fa-641bf320a641	POST	undefined	/register
