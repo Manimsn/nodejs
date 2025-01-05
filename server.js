@@ -11,6 +11,7 @@ const credentials = require("./middleware/credentials");
 const connectDB = require("./config/dbConn");
 const { default: mongoose } = require("mongoose");
 const PORT = process.env.PORT || 3500;
+require("dotenv").config();
 
 connectDB();
 // custom middleware logger
