@@ -244,3 +244,12 @@
 20250105	18:55:16	3e3de875-ff4c-473c-92c3-46061e0aaf9e	POST	undefined	/auth
 20250105	18:55:25	743293a1-3c41-4476-b3eb-1343dbf220a5	DELETE	undefined	/employees
 20250105	19:09:21	5fe9aa44-1a58-4f74-8bc2-bf9640da2265	POST	undefined	/auth
+20250106	14:07:56	3632e875-56de-4a93-b35e-67a7b7e18f2f	OPTIONS	http://localhost:3000	/register
+20250106	14:08:49	33189758-2dc9-4cc4-a886-87ba8fd1bfdb	OPTIONS	http://localhost:3000	/register
+20250106	14:08:49	553d0bc1-9be7-4952-bda7-c798d2936255	POST	http://localhost:3000	/register
+20250106	14:11:04	56c99f26-0001-4cac-b852-3e361ae7680c	OPTIONS	http://localhost:3000	/register
+20250106	14:11:04	42dabe9c-655d-46fa-b7ea-edcc65c88142	POST	http://localhost:3000	/register
+20250106	14:11:17	32b9ada8-b0dd-4c64-b7bb-020ad98ad653	OPTIONS	http://localhost:3000	/register
+20250106	14:11:17	77c1e1b4-77eb-4883-9532-8ff0f9c53c58	POST	http://localhost:3000	/register
+20250106	14:13:51	4c68243f-96e1-4421-b007-f2fac4e9d5b5	OPTIONS	http://localhost:3000	/registe
+20250106	14:13:51	aa7169a9-e50b-4c11-b56d-8a8d20a71834	POST	http://localhost:3000	/registe

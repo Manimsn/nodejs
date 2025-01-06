@@ -11,3 +11,4 @@
 20250105	18:54:53	45e8b151-0fb8-467e-9c83-c693ca81e725	SyntaxError: Unexpected token '}', "{
   "id": 
 }" is not valid JSON
+20250106	14:07:56	a8b79077-07f6-4eb8-a2b1-f4433b11bd2d	Error: Not allowed by cors
