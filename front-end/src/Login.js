@@ -35,7 +35,7 @@ const Login = () => {
         }
       );
       console.log(JSON.stringify(response?.data));
-      //console.log(JSON.stringify(response));
+      console.log(response);
       const accessToken = response?.data?.accessToken;
       const roles = response?.data?.roles;
       setAuth({ user, pwd, roles, accessToken });
@@ -43,6 +43,7 @@ const Login = () => {
       setPwd("");
       setSuccess(true);
     } catch (err) {
+      console.log(err);
       if (!err?.response) {
         setErrMsg("No Server Response");
       } else if (err.response?.status === 400) {
