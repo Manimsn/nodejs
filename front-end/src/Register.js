@@ -35,16 +35,10 @@ const Register = () => {
   }, []);
 
   useEffect(() => {
-    const result= USER_REGEX.test(user)
     setValidName(USER_REGEX.test(user));
-    console.log(result)
-    console.log(user)
   }, [user]);
 
   useEffect(() => {
-    const result= PWD_REGEX.test(pwd)
-    console.log(result)
-    console.log(pwd)
     setValidPwd(PWD_REGEX.test(pwd));
     setValidMatch(pwd === matchPwd);
   }, [pwd, matchPwd]);
@@ -71,12 +65,11 @@ const Register = () => {
           withCredentials: true,
         }
       );
-      console.log(response?.data);
-      console.log(response?.accessToken);
-      console.log(JSON.stringify(response));
+      // TODO: remove console.logs before deployment
+      console.log(JSON.stringify(response?.data));
+      //console.log(JSON.stringify(response))
       setSuccess(true);
       //clear state and controlled inputs
-      //need value attrib on inputs for this
       setUser("");
       setPwd("");
       setMatchPwd("");
@@ -88,7 +81,7 @@ const Register = () => {
       } else {
         setErrMsg("Registration Failed");
       }
-      errRef.current.focus(); 
+      errRef.current.focus();
     }
   };
 
@@ -102,7 +95,7 @@ const Register = () => {
           </p>
         </section>
       ) : (
-        <se ction>
+        <section>
           <p
             ref={errRef}
             className={errMsg ? "errmsg" : "offscreen"}
@@ -236,7 +229,7 @@ const Register = () => {
               <a href="#">Sign In</a>
             </span>
           </p>
-        </se>
+        </section>
       )}
     </>
   );
