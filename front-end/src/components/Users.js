@@ -17,11 +17,14 @@ const Users = () => {
         const response = await axiosPrivate.get("/users", {
           signal: controller.signal,
         });
-        console.log(response);
-        isMounted && setUsers(response.data);
+        if (isMounted) setUsers(response.data);
       } catch (err) {
-        console.error(err);
-        navigate("/login", { state: { from: location }, replace: true });
+        if (err.name === "CanceledError") {
+          console.log("Request canceled:", err.message);
+        } else {
+          console.error(err);
+          navigate("/login", { state: { from: location }, replace: true });
+        }
       }
     };
 
@@ -31,7 +34,7 @@ const Users = () => {
       isMounted = false;
       controller.abort();
     };
-  }, []);
+  }, [axiosPrivate, location, navigate]);
 
   return (
     <article>
