@@ -404,3 +404,5 @@
 20250108	11:12:53	06b42e77-f967-47c5-aacb-62c044b5495b	POST	http://localhost:3000	/auth
 20250108	11:12:54	b7547f2c-29ce-417d-a90c-4ced42d105f2	OPTIONS	http://localhost:3000	/users
 20250108	11:12:54	92cefff8-7b51-4a01-bcf3-0bcdfb2309db	GET	http://localhost:3000	/users
+20250108	21:07:33	d012e3f4-555d-4558-b405-27d449a3b929	OPTIONS	http://localhost:3000	/auth
+20250108	21:07:33	c415bb76-a5ec-4f73-8b28-13f1f6928112	POST	http://localhost:3000	/auth
