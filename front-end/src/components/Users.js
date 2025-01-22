@@ -19,7 +19,8 @@ const Users = () => {
         });
         console.log(response.data);
         // isMounted && setUsers(response.data);
-        if (isMounted) setUsers(response.data);
+        const userNames = response.data.map((user) => user.username);
+        if (isMounted) setUsers(userNames);
       } catch (err) {
         if (err.name === "CanceledError") {
           console.log("Request canceled:", err.message);
@@ -44,7 +45,7 @@ const Users = () => {
       {users?.length ? (
         <ul>
           {users.map((user, i) => (
-            <li key={i}>{user?.username}</li>
+            <li key={i}>{user}</li>
           ))}
         </ul>
       ) : (
