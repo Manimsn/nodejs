@@ -848,3 +848,13 @@
 20250122	14:00:18	dbc58322-f5a3-4ac0-a86a-4959a66745a1	POST	http://localhost:3000	/auth
 20250122	14:00:30	8eb27f91-3382-4859-a9d7-308fe2fc22e6	OPTIONS	http://localhost:3000	/users
 20250122	14:00:30	183da49c-719c-421d-9a2c-f4be9dae098d	GET	http://localhost:3000	/users
+20250123	08:15:48	afd69cf2-5aee-422c-afca-d361749a756e	GET	http://localhost:3000	/refresh
+20250123	08:16:00	1158f835-29bb-4a7f-bc65-0e9c1014e244	GET	http://localhost:3000	/refresh
+20250123	08:16:05	1c9e23ee-afeb-4e9f-a0f6-9d0b8b5bec3c	GET	http://localhost:3000	/refresh
+20250123	08:16:09	ac994a77-0ecf-4a89-9afe-6720e3e125d9	OPTIONS	http://localhost:3000	/users
+20250123	08:16:09	cd97f78a-beb6-4409-bbcf-0d66d4b6ff1a	GET	http://localhost:3000	/users
+20250123	08:16:23	dbe3b9a2-448c-40fc-ae25-8606c7d0f272	OPTIONS	http://localhost:3000	/users
+20250123	08:16:23	ba499468-f363-44a7-b5a8-516c5f3636e2	GET	http://localhost:3000	/users
+20250123	08:16:23	bba9045a-4d45-4a21-af29-efd55fae6f13	GET	http://localhost:3000	/refresh
+20250123	08:16:23	6089206e-4ff8-4963-86e4-caba7116e7a6	OPTIONS	http://localhost:3000	/users
+20250123	08:16:23	d74bc839-c390-4dba-9825-82b3067362f3	GET	http://localhost:3000	/users
